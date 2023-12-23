@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Editor</title>
+</head>
+
+<body>
+    <div class="editor-container">
+        <textarea id="html-editor" placeholder="HTML"></textarea>
+        <textarea id="css-editor" placeholder="CSS"></textarea>
+        <textarea id="js-editor" placeholder="JavaScript"></textarea>
+        <button onclick="compileCode()">Compile</button>
+    </div>
+    <div id="output-container">
+        <iframe id="output-frame"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
